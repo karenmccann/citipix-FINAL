@@ -19,7 +19,7 @@ var city = ['NYC', 'LA', 'SF', 'ATX', 'SYD'];
      
       //if user submits "New York" or "New York City" or "NYC" make the background of the page nyc.jpg
     if (city == "NYC"){
-      //KEPT THIS IN FOR PERSONAL NOTES, SHOWING THERES ANOTHER WAY
+      //KEPT THIS IN FOR PERSONAL NOTES, SHOWING THERES ANOTHER WAY!
       //$('body').css("background", "url(images/nyc.jpg) no-repeat center center fixed");
       $("body").attr("class", "nyc");
 
